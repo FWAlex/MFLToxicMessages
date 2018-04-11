@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD32BDA207E5CA70010A8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD32BD9207E5CA70010A8BE /* AppDelegate.swift */; };
+		FAD32BDC207E5CA70010A8BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD32BDB207E5CA70010A8BE /* ViewController.swift */; };
+		FAD32BDF207E5CA70010A8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD32BDD207E5CA70010A8BE /* Main.storyboard */; };
+		FAD32BE1207E5CA80010A8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD32BE0207E5CA80010A8BE /* Assets.xcassets */; };
+		FAD32BE4207E5CA80010A8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD32BE2207E5CA80010A8BE /* LaunchScreen.storyboard */; };
+		FAD32BEF207E5CA80010A8BE /* MFLToxicMessagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD32BEE207E5CA80010A8BE /* MFLToxicMessagesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD32BEB207E5CA80010A8BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD32BCE207E5CA70010A8BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD32BD5207E5CA70010A8BE;
+			remoteInfo = MFLToxicMessages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD32BD6207E5CA70010A8BE /* MFLToxicMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFLToxicMessages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD32BD9207E5CA70010A8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD32BDB207E5CA70010A8BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD32BDE207E5CA70010A8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD32BE0207E5CA80010A8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD32BE3207E5CA80010A8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD32BE5207E5CA80010A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD32BEA207E5CA80010A8BE /* MFLToxicMessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFLToxicMessagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD32BEE207E5CA80010A8BE /* MFLToxicMessagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFLToxicMessagesTests.swift; sourceTree = "<group>"; };
+		FAD32BF0207E5CA80010A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD32BD3207E5CA70010A8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD32BE7207E5CA80010A8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD32BCD207E5CA70010A8BE = {
+			isa = PBXGroup;
+			children = (
+				FAD32BD8207E5CA70010A8BE /* MFLToxicMessages */,
+				FAD32BED207E5CA80010A8BE /* MFLToxicMessagesTests */,
+				FAD32BD7207E5CA70010A8BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD32BD7207E5CA70010A8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD32BD6207E5CA70010A8BE /* MFLToxicMessages.app */,
+				FAD32BEA207E5CA80010A8BE /* MFLToxicMessagesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD32BD8207E5CA70010A8BE /* MFLToxicMessages */ = {
+			isa = PBXGroup;
+			children = (
+				FAD32BD9207E5CA70010A8BE /* AppDelegate.swift */,
+				FAD32BDB207E5CA70010A8BE /* ViewController.swift */,
+				FAD32BDD207E5CA70010A8BE /* Main.storyboard */,
+				FAD32BE0207E5CA80010A8BE /* Assets.xcassets */,
+				FAD32BE2207E5CA80010A8BE /* LaunchScreen.storyboard */,
+				FAD32BE5207E5CA80010A8BE /* Info.plist */,
+			);
+			path = MFLToxicMessages;
+			sourceTree = "<group>";
+		};
+		FAD32BED207E5CA80010A8BE /* MFLToxicMessagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD32BEE207E5CA80010A8BE /* MFLToxicMessagesTests.swift */,
+				FAD32BF0207E5CA80010A8BE /* Info.plist */,
+			);
+			path = MFLToxicMessagesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD32BD5207E5CA70010A8BE /* MFLToxicMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD32BF3207E5CA80010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessages" */;
+			buildPhases = (
+				FAD32BD2207E5CA70010A8BE /* Sources */,
+				FAD32BD3207E5CA70010A8BE /* Frameworks */,
+				FAD32BD4207E5CA70010A8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFLToxicMessages;
+			productName = MFLToxicMessages;
+			productReference = FAD32BD6207E5CA70010A8BE /* MFLToxicMessages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD32BE9207E5CA80010A8BE /* MFLToxicMessagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD32BF6207E5CA80010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessagesTests" */;
+			buildPhases = (
+				FAD32BE6207E5CA80010A8BE /* Sources */,
+				FAD32BE7207E5CA80010A8BE /* Frameworks */,
+				FAD32BE8207E5CA80010A8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD32BEC207E5CA80010A8BE /* PBXTargetDependency */,
+			);
+			name = MFLToxicMessagesTests;
+			productName = MFLToxicMessagesTests;
+			productReference = FAD32BEA207E5CA80010A8BE /* MFLToxicMessagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD32BCE207E5CA70010A8BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Minds For Life";
+				TargetAttributes = {
+					FAD32BD5207E5CA70010A8BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FAD32BE9207E5CA80010A8BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAD32BD5207E5CA70010A8BE;
+					};
+				};
+			};
+			buildConfigurationList = FAD32BD1207E5CA70010A8BE /* Build configuration list for PBXProject "MFLToxicMessages" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD32BCD207E5CA70010A8BE;
+			productRefGroup = FAD32BD7207E5CA70010A8BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD32BD5207E5CA70010A8BE /* MFLToxicMessages */,
+				FAD32BE9207E5CA80010A8BE /* MFLToxicMessagesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD32BD4207E5CA70010A8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD32BE4207E5CA80010A8BE /* LaunchScreen.storyboard in Resources */,
+				FAD32BE1207E5CA80010A8BE /* Assets.xcassets in Resources */,
+				FAD32BDF207E5CA70010A8BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD32BE8207E5CA80010A8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD32BD2207E5CA70010A8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD32BDC207E5CA70010A8BE /* ViewController.swift in Sources */,
+				FAD32BDA207E5CA70010A8BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD32BE6207E5CA80010A8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD32BEF207E5CA80010A8BE /* MFLToxicMessagesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD32BEC207E5CA80010A8BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD32BD5207E5CA70010A8BE /* MFLToxicMessages */;
+			targetProxy = FAD32BEB207E5CA80010A8BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD32BDD207E5CA70010A8BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD32BDE207E5CA70010A8BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD32BE2207E5CA80010A8BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD32BE3207E5CA80010A8BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD32BF1207E5CA80010A8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD32BF2207E5CA80010A8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD32BF4207E5CA80010A8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QK79RG5BZ;
+				INFOPLIST_FILE = MFLToxicMessages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindsforlife.MFLToxicMessages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD32BF5207E5CA80010A8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QK79RG5BZ;
+				INFOPLIST_FILE = MFLToxicMessages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindsforlife.MFLToxicMessages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAD32BF7207E5CA80010A8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QK79RG5BZ;
+				INFOPLIST_FILE = MFLToxicMessagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindsforlife.MFLToxicMessagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFLToxicMessages.app/MFLToxicMessages";
+			};
+			name = Debug;
+		};
+		FAD32BF8207E5CA80010A8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QK79RG5BZ;
+				INFOPLIST_FILE = MFLToxicMessagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindsforlife.MFLToxicMessagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFLToxicMessages.app/MFLToxicMessages";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD32BD1207E5CA70010A8BE /* Build configuration list for PBXProject "MFLToxicMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD32BF1207E5CA80010A8BE /* Debug */,
+				FAD32BF2207E5CA80010A8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD32BF3207E5CA80010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD32BF4207E5CA80010A8BE /* Debug */,
+				FAD32BF5207E5CA80010A8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD32BF6207E5CA80010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD32BF7207E5CA80010A8BE /* Debug */,
+				FAD32BF8207E5CA80010A8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD32BCE207E5CA70010A8BE /* Project object */;
+}
