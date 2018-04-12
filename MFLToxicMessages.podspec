@@ -19,5 +19,7 @@ The Toxic Messages feature of the MFL Recovery Apps. This Allows the user to see
   # s.resource_bundles = {
   #   'MFLToxicMessages' => ['MFLToxicMessages/Classes/**/*.storyboard', 'MFLToxicMessages/Assets/*.xcassets', 'MFLToxicMessages/Classes/*.xib']
   # }
+
+  s.dependency 'MFL-Common'
  
 end

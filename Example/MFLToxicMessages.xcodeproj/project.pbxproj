@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A7F532CE781761D046380F4 /* Pods_MFLToxicMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44328EF2DA3BF9C027EAEAFF /* Pods_MFLToxicMessages.framework */; };
+		728EE20B70F06A0663FFE5F2 /* Pods_MFLToxicMessagesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7D770B5E7CE7DB75B960F /* Pods_MFLToxicMessagesTests.framework */; };
 		FAD32C06207F5EC90010A8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD32C05207F5EC90010A8BE /* AppDelegate.swift */; };
 		FAD32C08207F5EC90010A8BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD32C07207F5EC90010A8BE /* ViewController.swift */; };
 		FAD32C0B207F5EC90010A8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD32C09207F5EC90010A8BE /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1669808EE794DF474AD096CC /* Pods-MFLToxicMessagesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFLToxicMessagesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFLToxicMessagesTests/Pods-MFLToxicMessagesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34DA3E9D50C04FD73F5173A1 /* Pods-MFLToxicMessages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFLToxicMessages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFLToxicMessages/Pods-MFLToxicMessages.debug.xcconfig"; sourceTree = "<group>"; };
+		44328EF2DA3BF9C027EAEAFF /* Pods_MFLToxicMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFLToxicMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		937B5FBF8B96A61B40BBF976 /* Pods-MFLToxicMessagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFLToxicMessagesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFLToxicMessagesTests/Pods-MFLToxicMessagesTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3EC71E746AAEDC5FCDDCC3A /* Pods-MFLToxicMessages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFLToxicMessages.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFLToxicMessages/Pods-MFLToxicMessages.release.xcconfig"; sourceTree = "<group>"; };
 		FAD32C02207F5EC90010A8BE /* MFLToxicMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFLToxicMessages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD32C05207F5EC90010A8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD32C07207F5EC90010A8BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		FAD32C16207F5EC90010A8BE /* MFLToxicMessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFLToxicMessagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD32C1A207F5EC90010A8BE /* MFLToxicMessagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFLToxicMessagesTests.swift; sourceTree = "<group>"; };
 		FAD32C1C207F5EC90010A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC7D770B5E7CE7DB75B960F /* Pods_MFLToxicMessagesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFLToxicMessagesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7F532CE781761D046380F4 /* Pods_MFLToxicMessages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728EE20B70F06A0663FFE5F2 /* Pods_MFLToxicMessagesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		551873363A2C854E3FBB6B3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44328EF2DA3BF9C027EAEAFF /* Pods_MFLToxicMessages.framework */,
+				FBC7D770B5E7CE7DB75B960F /* Pods_MFLToxicMessagesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A304A004896BB87C11D4CBF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34DA3E9D50C04FD73F5173A1 /* Pods-MFLToxicMessages.debug.xcconfig */,
+				C3EC71E746AAEDC5FCDDCC3A /* Pods-MFLToxicMessages.release.xcconfig */,
+				1669808EE794DF474AD096CC /* Pods-MFLToxicMessagesTests.debug.xcconfig */,
+				937B5FBF8B96A61B40BBF976 /* Pods-MFLToxicMessagesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FAD32BF9207F5EC90010A8BE = {
 			isa = PBXGroup;
 			children = (
 				FAD32C04207F5EC90010A8BE /* MFLToxicMessages */,
 				FAD32C19207F5EC90010A8BE /* MFLToxicMessagesTests */,
 				FAD32C03207F5EC90010A8BE /* Products */,
+				A304A004896BB87C11D4CBF0 /* Pods */,
+				551873363A2C854E3FBB6B3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD32C1F207F5EC90010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessages" */;
 			buildPhases = (
+				81E99DBC70E072877170CBAD /* [CP] Check Pods Manifest.lock */,
 				FAD32BFE207F5EC90010A8BE /* Sources */,
 				FAD32BFF207F5EC90010A8BE /* Frameworks */,
 				FAD32C00207F5EC90010A8BE /* Resources */,
+				8AB09B7A8B45B07242155CA2 /* [CP] Embed Pods Frameworks */,
+				138CEF5D25A0A7B71677B546 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD32C22207F5EC90010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessagesTests" */;
 			buildPhases = (
+				9409C53309D59106D298C927 /* [CP] Check Pods Manifest.lock */,
 				FAD32C12207F5EC90010A8BE /* Sources */,
 				FAD32C13207F5EC90010A8BE /* Frameworks */,
 				FAD32C14207F5EC90010A8BE /* Resources */,
+				6F37F39E6123A43AE598C28A /* [CP] Embed Pods Frameworks */,
+				9F7B7731AACA0D0A677A46E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,108 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		138CEF5D25A0A7B71677B546 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFLToxicMessages/Pods-MFLToxicMessages-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F37F39E6123A43AE598C28A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFLToxicMessagesTests/Pods-MFLToxicMessagesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81E99DBC70E072877170CBAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MFLToxicMessages-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB09B7A8B45B07242155CA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MFLToxicMessages/Pods-MFLToxicMessages-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MFLToxicMessages/MFLToxicMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MFLToxicMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFLToxicMessages/Pods-MFLToxicMessages-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9409C53309D59106D298C927 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MFLToxicMessagesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7B7731AACA0D0A677A46E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFLToxicMessagesTests/Pods-MFLToxicMessagesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAD32BFE207F5EC90010A8BE /* Sources */ = {
@@ -351,11 +491,13 @@
 		};
 		FAD32C20207F5EC90010A8BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34DA3E9D50C04FD73F5173A1 /* Pods-MFLToxicMessages.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QK79RG5BZ;
 				INFOPLIST_FILE = MFLToxicMessages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindsforlife.MFLToxicMessages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,11 +508,13 @@
 		};
 		FAD32C21207F5EC90010A8BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3EC71E746AAEDC5FCDDCC3A /* Pods-MFLToxicMessages.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QK79RG5BZ;
 				INFOPLIST_FILE = MFLToxicMessages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindsforlife.MFLToxicMessages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +525,7 @@
 		};
 		FAD32C23207F5EC90010A8BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1669808EE794DF474AD096CC /* Pods-MFLToxicMessagesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +543,7 @@
 		};
 		FAD32C24207F5EC90010A8BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937B5FBF8B96A61B40BBF976 /* Pods-MFLToxicMessagesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

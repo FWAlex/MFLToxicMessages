@@ -1,0 +1,6 @@
+framework module MFLToxicMessages {
+  umbrella header "MFLToxicMessages-umbrella.h"
+
+  export *
+  module * { export * }
+}
