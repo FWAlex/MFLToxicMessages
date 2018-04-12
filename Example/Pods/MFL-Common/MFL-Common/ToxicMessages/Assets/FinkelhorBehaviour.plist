@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not honouring your body</string>
+		<key>text</key>
+		<string>Sleeping with lots of people without thinking about it</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not honouring your body</string>
+		<key>text</key>
+		<string>Having sex because you feel compelled to</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not honouring your body</string>
+		<key>text</key>
+		<string>Having sex in risky situations</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not honouring your body</string>
+		<key>text</key>
+		<string>Going back to the person or people who abused you</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not honouring your body</string>
+		<key>text</key>
+		<string>Looking at or thinking about children in a sexualised way</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not honouring your body</string>
+		<key>text</key>
+		<string>Letting your body be used by others to do with as they want</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not honouring your body</string>
+		<key>text</key>
+		<string>Acting sexually inappropriately towards others</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not honouring your body</string>
+		<key>text</key>
+		<string>Using sex to get what you want from people – ie money, gifts, favours, affection or anything else</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Shutting your body down</string>
+		<key>text</key>
+		<string>Avoiding sex altogether</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Shutting your body down</string>
+		<key>text</key>
+		<string>Finding sex disgusting or repulsive</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Shutting your body down</string>
+		<key>text</key>
+		<string>Finding it difficult or impossible to feel aroused</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Shutting your body down</string>
+		<key>text</key>
+		<string>Wanting to be close to your partner or desired partner but not wanting to engage sexually</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Shutting your body down</string>
+		<key>text</key>
+		<string>Flinching when touched</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Shutting your body down</string>
+		<key>text</key>
+		<string>Feeling sick or physically ill at the thought of or beginnings of sexual touching</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Shutting your body down</string>
+		<key>text</key>
+		<string>Experiencing flashbacks to the abuse during sex or at the thought of sex</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Shutting your body down</string>
+		<key>text</key>
+		<string>Experiencing disassociation during sex or at the thought of sex</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not Knowing what you feel</string>
+		<key>text</key>
+		<string>Agreeing to sex even when you don’t want to really</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not Knowing what you feel</string>
+		<key>text</key>
+		<string>Feeling confused about your sexual orientation</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not Knowing what you feel</string>
+		<key>text</key>
+		<string>Feeling like you are walking around with your insides on the outside – thinking that people can tell by looking at you that you were abused</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not Knowing what you feel</string>
+		<key>text</key>
+		<string>Feeling confused about what is normal sexual behaviour</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not Knowing what you feel</string>
+		<key>text</key>
+		<string>Feeling confused about where sex fits into affectionate relationships</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not Knowing what you feel</string>
+		<key>text</key>
+		<string>Feeling that you only know how to show affection by being sexual</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not Knowing what you feel</string>
+		<key>text</key>
+		<string>Feel fearful of getting close to anyone</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>traumaticSexualisation</string>
+		<key>section</key>
+		<string>Not Knowing what you feel</string>
+		<key>text</key>
+		<string>Avoiding intimacy of any kind</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Post Traumatic stress</string>
+		<key>text</key>
+		<string>Engaging in prostitution</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Low self esteem</string>
+		<key>text</key>
+		<string>Feeling isolated</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Low self esteem</string>
+		<key>text</key>
+		<string>Being drawn to other who feel isolated and stigmaitised</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Low self esteem</string>
+		<key>text</key>
+		<string>Experiencing feelings of guilt and shame</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Low self esteem</string>
+		<key>text</key>
+		<string>Low self esteem</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Low self esteem</string>
+		<key>text</key>
+		<string>Self-blame</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Low self esteem</string>
+		<key>text</key>
+		<string>Feeling ‘different’ and that others will reject you for what happened</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Self destructive behaviours used to regulate emotions and unwanted feelings</string>
+		<key>text</key>
+		<string>Engaging in prostitution</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Self destructive behaviours used to regulate emotions and unwanted feelings</string>
+		<key>text</key>
+		<string>Engaging in drug abuse</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Self destructive behaviours used to regulate emotions and unwanted feelings</string>
+		<key>text</key>
+		<string>Engaging in criminal activity</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Self destructive behaviours used to regulate emotions and unwanted feelings</string>
+		<key>text</key>
+		<string>Self-harming</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>stigmatisation</string>
+		<key>section</key>
+		<string>Self destructive behaviours used to regulate emotions and unwanted feelings</string>
+		<key>text</key>
+		<string>Having suicidal feelings and ideation</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>Depression</string>
+		<key>text</key>
+		<string>Are you feeling overwhelming sadness?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>Depression</string>
+		<key>text</key>
+		<string>Do you feel grief stricken?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>Depression</string>
+		<key>text</key>
+		<string>Do you feel a profound lack of hope?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>Depression</string>
+		<key>text</key>
+		<string>Do you find yourself thinking negative thoughts on a daily or frequent basis?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>I am not OK</string>
+		<key>text</key>
+		<string>Do you feel that the world is dangerous and unstable?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>I am not OK</string>
+		<key>text</key>
+		<string>Do you have an intense need to feel safe?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>I am not OK</string>
+		<key>text</key>
+		<string>Do you feel you don’t know who you can trust?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>I am not OK</string>
+		<key>text</key>
+		<string>Do you distrust everyone?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>I am not OK</string>
+		<key>text</key>
+		<string>Do you feel hostile and angry towards people?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>I am not OK</string>
+		<key>text</key>
+		<string>Do you feel immense anger towards people?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>I am not OK</string>
+		<key>text</key>
+		<string>Do you have a burning desire for retaliation?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>I am not OK</string>
+		<key>text</key>
+		<string>Do you engage in criminal or anti-social behaviour?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>Relationships</string>
+		<key>text</key>
+		<string>Do you make relationships but people complain you are too clingy?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>Relationships</string>
+		<key>text</key>
+		<string>Do you feel that you build an unhealthy dependency on people you get close to?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>Relationships</string>
+		<key>text</key>
+		<string>Do you attach yourself quickly to anyone who shows you kindness, no matter how small the kindness is?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>Relationships</string>
+		<key>text</key>
+		<string>Do you trust everyone?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>Relationships</string>
+		<key>text</key>
+		<string>Do you find yourself trusting people who then turn around and hurt you?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>Relationships</string>
+		<key>text</key>
+		<string>Do you push people away?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>betrayal</string>
+		<key>section</key>
+		<string>Relationships</string>
+		<key>text</key>
+		<string>Do you find yourself not engaging in relationships?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>Anxiety</string>
+		<key>text</key>
+		<string>Do you feel full of fear?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>Anxiety</string>
+		<key>text</key>
+		<string>Do you feel constantly anxious?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>Anxiety</string>
+		<key>text</key>
+		<string>Do you suffer from nightmares?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>Anxiety</string>
+		<key>text</key>
+		<string>Have you developed phobia’s – for example, excessive handwashing, or cleaning, or fear of going outdoors?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>Anxiety</string>
+		<key>text</key>
+		<string>Are unable to sleep?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>Anxiety</string>
+		<key>text</key>
+		<string>Do you fear that the abuse will happen to you again or to someone else?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>Anxiety</string>
+		<key>text</key>
+		<string>Do you feel despairing?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>PTSD</string>
+		<key>text</key>
+		<string>Do you feel constantly on edge, wary or jumpy?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>PTSD</string>
+		<key>text</key>
+		<string>Do you have physical illness symptoms that can’t be explained by physical causes?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>Low self-esteem</string>
+		<key>text</key>
+		<string>Do you feel that you are not capable?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>Low self-esteem</string>
+		<key>text</key>
+		<string>Do you feel that you can’t cope with life?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>Low self-esteem</string>
+		<key>text</key>
+		<string>Do you feel that you are a victim?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>powerlessness</string>
+		<key>section</key>
+		<string>Low self-esteem</string>
+		<key>text</key>
+		<string>Do you feel that you have no power over your life or what happens to you?</string>
+		<key>selected</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

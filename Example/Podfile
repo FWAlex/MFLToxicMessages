@@ -6,7 +6,8 @@ target 'MFLToxicMessages' do
   use_frameworks!
 
   # Pods for MFLToxicMessages
-  pod 'MFLToxicMessages'
+  pod 'MFL-Common', :git => 'git@github.com:FutureWorkshops/MFL-Common-iOS.git'
+  pod 'MFLToxicMessages', :path => '../'
 
   target 'MFLToxicMessagesTests' do
     inherit! :search_paths

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GoalsHeaderView" customModule="MFL_Common">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pW6-Ah-SCk">
+                    <rect key="frame" x="47" y="15" width="281.5" height="290"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writing down a goal is a major step towards achieving it." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBJ-lH-dCJ">
+                            <rect key="frame" x="0.0" y="0.0" width="281.5" height="229"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Goals can be big or small, short term or long term. Take a look at these examples to get started." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5G-y1-ouO">
+                            <rect key="frame" x="0.0" y="229" width="281.5" height="61"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pW6-Ah-SCk" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="HaS-tV-CyO"/>
+                <constraint firstItem="pW6-Ah-SCk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="RhW-Cr-6Oo"/>
+                <constraint firstItem="pW6-Ah-SCk" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.75" id="h0m-dD-cVg"/>
+                <constraint firstAttribute="bottom" secondItem="pW6-Ah-SCk" secondAttribute="bottom" constant="15" id="iDT-Ph-R1n"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="mainLabel" destination="HBJ-lH-dCJ" id="RFC-X1-mLj"/>
+                <outlet property="secondaryLabel" destination="f5G-y1-ouO" id="neK-6a-tX6"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="-119"/>
+        </view>
+    </objects>
+</document>

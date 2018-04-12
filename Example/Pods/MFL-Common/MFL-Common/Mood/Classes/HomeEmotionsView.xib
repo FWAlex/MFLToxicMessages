@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeEmotionsView" customModule="Mood" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1mH-s0-9OP" customClass="HomeEmotionsView" customModule="Mood" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="312"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="N9Y-PF-hcU">
+                    <rect key="frame" x="58.5" y="0.0" width="258" height="66.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How are you feeling?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AuK-oO-mGA">
+                            <rect key="frame" x="0.0" y="0.0" width="258" height="33.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
+                            <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select one of these three moods" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ib-Sc-7uq">
+                            <rect key="frame" x="0.0" y="48.5" width="258" height="18"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                            <color key="textColor" red="0.4431372549" green="0.43921568630000002" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iov-t7-40T" customClass="RoundedButton" customModule="MFL_Common">
+                    <rect key="frame" x="101.5" y="250.5" width="172" height="61.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <state key="normal" title="See How You’ve Been">
+                        <color key="titleColor" red="0.42745098040000001" green="0.70196078429999997" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.90196078430000004" green="0.90588235289999997" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="didTapHistory:" destination="1mH-s0-9OP" eventType="touchUpInside" id="Wsl-gJ-J1B"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1sC-r1-nNU">
+                    <rect key="frame" x="18" y="101.5" width="339" height="109"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVx-Qn-m3S">
+                            <rect key="frame" x="0.0" y="0.0" width="99.5" height="109"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="YVx-Qn-m3S" secondAttribute="height" multiplier="23:25" id="UxY-D0-Xi1"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="home_emotion_happy"/>
+                            <connections>
+                                <action selector="didTapEmotion:" destination="1mH-s0-9OP" eventType="touchUpInside" id="aqz-RR-0Tg"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLK-IC-MCi">
+                            <rect key="frame" x="119.5" y="0.0" width="100" height="109"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="eLK-IC-MCi" secondAttribute="height" multiplier="23:25" id="nJq-q3-ORH"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="home_emotion_neutral"/>
+                            <connections>
+                                <action selector="didTapEmotion:" destination="1mH-s0-9OP" eventType="touchUpInside" id="h2K-DB-R0i"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aza-m1-kfO">
+                            <rect key="frame" x="239.5" y="0.0" width="99.5" height="109"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="aza-m1-kfO" secondAttribute="height" multiplier="23:25" id="cOl-o8-5gE"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="home_emotion_sad"/>
+                            <connections>
+                                <action selector="didTapEmotion:" destination="1mH-s0-9OP" eventType="touchUpInside" id="2h8-CF-Q2F"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="YVx-Qn-m3S" firstAttribute="width" secondItem="YVx-Qn-m3S" secondAttribute="height" multiplier="23:25" id="FmG-3K-yGX"/>
+                        <constraint firstItem="aza-m1-kfO" firstAttribute="width" secondItem="aza-m1-kfO" secondAttribute="height" multiplier="23:25" id="W8U-TV-jUn"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="YVx-Qn-m3S" firstAttribute="width" secondItem="1mH-s0-9OP" secondAttribute="width" multiplier="0.266" id="0xi-13-9vV"/>
+                <constraint firstItem="N9Y-PF-hcU" firstAttribute="centerX" secondItem="1mH-s0-9OP" secondAttribute="centerX" id="3u7-UM-LEF"/>
+                <constraint firstAttribute="bottom" secondItem="iov-t7-40T" secondAttribute="bottom" id="7Hh-9R-7tO"/>
+                <constraint firstItem="1sC-r1-nNU" firstAttribute="top" secondItem="N9Y-PF-hcU" secondAttribute="bottom" constant="35" id="CSE-ug-oaP"/>
+                <constraint firstItem="iov-t7-40T" firstAttribute="centerX" secondItem="1mH-s0-9OP" secondAttribute="centerX" id="JT6-uN-VDP"/>
+                <constraint firstItem="iov-t7-40T" firstAttribute="top" secondItem="1sC-r1-nNU" secondAttribute="bottom" constant="40" id="gOA-W8-NOy"/>
+                <constraint firstItem="N9Y-PF-hcU" firstAttribute="top" secondItem="1mH-s0-9OP" secondAttribute="top" id="gjY-nz-BtQ"/>
+                <constraint firstItem="1sC-r1-nNU" firstAttribute="centerX" secondItem="1mH-s0-9OP" secondAttribute="centerX" id="sDl-XR-Ulg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="happyView" destination="YVx-Qn-m3S" id="hYy-yQ-OXC"/>
+                <outlet property="historyButton" destination="iov-t7-40T" id="e0G-r0-Lo5"/>
+                <outlet property="neutralView" destination="eLK-IC-MCi" id="rYA-hn-OAt"/>
+                <outlet property="sadView" destination="aza-m1-kfO" id="2X4-ML-Cdf"/>
+                <outlet property="titlesView" destination="N9Y-PF-hcU" id="lZc-5i-Gfu"/>
+            </connections>
+            <point key="canvasLocation" x="35.5" y="-124"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_emotion_happy" width="212" height="208"/>
+        <image name="home_emotion_neutral" width="212" height="208"/>
+        <image name="home_emotion_sad" width="212" height="208"/>
+    </resources>
+</document>

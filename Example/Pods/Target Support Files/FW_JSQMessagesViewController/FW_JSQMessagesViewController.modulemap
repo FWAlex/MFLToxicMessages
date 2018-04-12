@@ -1,0 +1,6 @@
+framework module FW_JSQMessagesViewController {
+  umbrella header "FW_JSQMessagesViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

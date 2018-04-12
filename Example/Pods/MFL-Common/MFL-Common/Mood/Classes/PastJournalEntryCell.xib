@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PastJournalEntryCell" rowHeight="54" id="by4-eT-rmS" customClass="PastJournalEntryCell" customModule="MFL_Common">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="by4-eT-rmS" id="lS4-8m-99H">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vBX-wf-MZM">
+                        <rect key="frame" x="16" y="11" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="vBX-wf-MZM" secondAttribute="height" multiplier="1:1" id="16A-Av-bGd"/>
+                            <constraint firstAttribute="height" constant="32" id="4Kg-xh-aVZ"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aoV-4r-C6I">
+                        <rect key="frame" x="63" y="53" width="257" height="1"/>
+                        <color key="backgroundColor" red="0.82745098039999998" green="0.82745098039999998" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="yIF-XN-iWk"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvn-fc-kBn">
+                        <rect key="frame" x="63" y="0.0" width="257" height="53"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aoV-4r-C6I" firstAttribute="top" secondItem="fvn-fc-kBn" secondAttribute="bottom" id="7Y5-Ud-eLt"/>
+                    <constraint firstAttribute="bottom" secondItem="vBX-wf-MZM" secondAttribute="bottom" constant="11" id="BPW-It-xJ8"/>
+                    <constraint firstAttribute="trailing" secondItem="fvn-fc-kBn" secondAttribute="trailing" id="Mh7-3d-8Cg"/>
+                    <constraint firstItem="vBX-wf-MZM" firstAttribute="top" secondItem="lS4-8m-99H" secondAttribute="top" constant="11" id="N4w-Kq-LjE"/>
+                    <constraint firstItem="fvn-fc-kBn" firstAttribute="top" secondItem="lS4-8m-99H" secondAttribute="top" id="RRH-zp-dYo"/>
+                    <constraint firstAttribute="bottom" secondItem="aoV-4r-C6I" secondAttribute="bottom" id="TeC-Iq-yL8"/>
+                    <constraint firstItem="fvn-fc-kBn" firstAttribute="leading" secondItem="vBX-wf-MZM" secondAttribute="trailing" constant="15" id="gEo-gP-yAB"/>
+                    <constraint firstItem="vBX-wf-MZM" firstAttribute="leading" secondItem="lS4-8m-99H" secondAttribute="leading" constant="16" id="jhJ-MT-dwW"/>
+                    <constraint firstItem="aoV-4r-C6I" firstAttribute="leading" secondItem="vBX-wf-MZM" secondAttribute="trailing" constant="15" id="sxK-jS-Efr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aoV-4r-C6I" secondAttribute="trailing" id="SwX-4l-sfG"/>
+            </constraints>
+            <connections>
+                <outlet property="dateLabel" destination="fvn-fc-kBn" id="jbN-oy-HXS"/>
+                <outlet property="emotionImageView" destination="vBX-wf-MZM" id="HIB-DA-6oB"/>
+            </connections>
+            <point key="canvasLocation" x="-36" y="-188"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CompletedGoalsEmptyView" customModule="MFL_Common">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="468-kN-K1a">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yhU-eW-KE3">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="301"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="When you complete goals they will be stored here, as a reference of your achievements." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="axk-HR-QmN">
+                                    <rect key="frame" x="37.5" y="84" width="300" height="134"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="axk-HR-QmN" firstAttribute="centerY" secondItem="yhU-eW-KE3" secondAttribute="centerY" id="2pC-OF-1am"/>
+                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="axk-HR-QmN" secondAttribute="bottom" constant="25" id="CKS-cB-huv"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="axk-HR-QmN" secondAttribute="trailing" constant="15" id="H0r-fc-H2a"/>
+                                <constraint firstItem="axk-HR-QmN" firstAttribute="centerX" secondItem="yhU-eW-KE3" secondAttribute="centerX" id="P2a-Vf-BYf"/>
+                                <constraint firstItem="axk-HR-QmN" firstAttribute="width" secondItem="yhU-eW-KE3" secondAttribute="width" multiplier="0.8" id="P7A-f1-LvZ"/>
+                                <constraint firstItem="axk-HR-QmN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yhU-eW-KE3" secondAttribute="leading" constant="15" id="hg6-GX-ChJ"/>
+                                <constraint firstItem="axk-HR-QmN" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yhU-eW-KE3" secondAttribute="top" constant="15" id="mFK-h5-RW4"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NEW-fL-GMc">
+                            <rect key="frame" x="0.0" y="301" width="375" height="366"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="ccM-Vt-SHr">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="366"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="ccM-Vt-SHr" secondAttribute="height" multiplier="125:122" id="TAt-Bg-ZYA"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="ccM-Vt-SHr" secondAttribute="bottom" priority="999" id="2gd-ud-CP4"/>
+                                <constraint firstItem="ccM-Vt-SHr" firstAttribute="leading" secondItem="NEW-fL-GMc" secondAttribute="leading" id="Aow-Va-Oj9"/>
+                                <constraint firstItem="ccM-Vt-SHr" firstAttribute="top" secondItem="NEW-fL-GMc" secondAttribute="top" id="gOj-e7-zTn"/>
+                                <constraint firstAttribute="trailing" secondItem="ccM-Vt-SHr" secondAttribute="trailing" id="kiV-AL-2M7"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="468-kN-K1a" secondAttribute="bottom" id="Scv-E4-tUz"/>
+                <constraint firstItem="468-kN-K1a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="c3u-GF-db0"/>
+                <constraint firstAttribute="trailing" secondItem="468-kN-K1a" secondAttribute="trailing" id="h45-Be-MeF"/>
+                <constraint firstItem="468-kN-K1a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uvb-W4-xDv"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="ccM-Vt-SHr" id="Dgh-vW-daH"/>
+                <outlet property="infoLabel" destination="axk-HR-QmN" id="3rx-zY-wXe"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

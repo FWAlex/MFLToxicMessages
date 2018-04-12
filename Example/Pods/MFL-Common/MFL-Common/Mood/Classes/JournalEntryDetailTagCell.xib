@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="JournalEntryDetailTagCell" id="1UT-xo-BdW" customClass="JournalEntryDetailTagCell" customModule="MFL_Common">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1UT-xo-BdW" id="dIW-9W-gKg">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="UiH-D1-OXf">
+                        <rect key="frame" x="16" y="0.0" width="343" height="44"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CTo-w8-myg">
+                                <rect key="frame" x="0.0" y="0.0" width="24" height="44"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tag" translatesAutoresizingMaskIntoConstraints="NO" id="O2j-9A-ILw">
+                                        <rect key="frame" x="0.0" y="10" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="cR7-2L-xOt"/>
+                                            <constraint firstAttribute="width" constant="24" id="o5u-wf-YVL"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="O2j-9A-ILw" secondAttribute="trailing" id="9Um-pa-3Wc"/>
+                                    <constraint firstItem="O2j-9A-ILw" firstAttribute="leading" secondItem="CTo-w8-myg" secondAttribute="leading" id="KTN-zb-MYj"/>
+                                    <constraint firstItem="O2j-9A-ILw" firstAttribute="centerY" secondItem="CTo-w8-myg" secondAttribute="centerY" id="LJx-sU-jFU"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8n-FS-Ems">
+                                <rect key="frame" x="28" y="0.0" width="315" height="44"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="gmk-hu-sOS"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UiH-D1-OXf" firstAttribute="top" secondItem="dIW-9W-gKg" secondAttribute="top" id="6tY-Yj-z3j"/>
+                    <constraint firstAttribute="trailing" secondItem="UiH-D1-OXf" secondAttribute="trailing" constant="16" id="FjM-oW-xKr"/>
+                    <constraint firstItem="UiH-D1-OXf" firstAttribute="leading" secondItem="dIW-9W-gKg" secondAttribute="leading" constant="16" id="bmE-H6-kDz"/>
+                    <constraint firstAttribute="bottom" secondItem="UiH-D1-OXf" secondAttribute="bottom" id="zpk-md-x86"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="tagImage" destination="O2j-9A-ILw" id="8jC-T0-oI3"/>
+                <outlet property="tagLabel" destination="F8n-FS-Ems" id="ZcK-bB-Ii0"/>
+            </connections>
+            <point key="canvasLocation" x="-1081" y="-82"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tag" width="24" height="24"/>
+    </resources>
+</document>

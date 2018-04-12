@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17B1003" minimumToolsVersion="Xcode 7.3" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Question" representedClassName="MFL_Common.ManagedQuestion" syncable="YES">
+        <attribute name="answer_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="text_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type_" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="options_" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="QuestionOption" inverseName="question_" inverseEntity="QuestionOption" syncable="YES"/>
+        <relationship name="questionnaire_" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Questionnaire" inverseName="questions_" inverseEntity="Questionnaire" syncable="YES"/>
+    </entity>
+    <entity name="Questionnaire" representedClassName="MFL_Common.ManagedQuestionnaire" syncable="YES">
+        <attribute name="conclusion_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="declined_" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="desc_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="introduction_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isCompleted_" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isSignUp_" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="progress_" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="responseId_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="slug_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summary_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type_" attributeType="String" syncable="YES"/>
+        <relationship name="questions_" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="Question" inverseName="questionnaire_" inverseEntity="Question" syncable="YES"/>
+    </entity>
+    <entity name="QuestionOption" representedClassName="MFL_Common.ManagedQuestionOption" syncable="YES">
+        <attribute name="id_" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="response_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_" attributeType="String" syncable="YES"/>
+        <attribute name="value_" attributeType="String" syncable="YES"/>
+        <relationship name="question_" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Question" inverseName="options_" inverseEntity="Question" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Question" positionX="-36" positionY="9" width="128" height="135"/>
+        <element name="Questionnaire" positionX="-63" positionY="-18" width="128" height="240"/>
+        <element name="QuestionOption" positionX="-54" positionY="-9" width="128" height="120"/>
+    </elements>
+</model>

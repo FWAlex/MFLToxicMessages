@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="16G29" minimumToolsVersion="Xcode 7.3" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Message" representedClassName="MFL_Common.ManagedMessage" syncable="YES">
+        <attribute name="id_" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrlString_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isSent_" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="senderId_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderName_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sentAt_" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="text_" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TeamMember" representedClassName="MFL_Common.ManagedTeamMember" syncable="YES">
+        <attribute name="avatarURL_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bio_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOnline_" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="jobTitle_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_" attributeType="String" syncable="YES"/>
+        <attribute name="professionalBodies_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="training_" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Message" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="TeamMember" positionX="-63" positionY="36" width="128" height="180"/>
+    </elements>
+</model>

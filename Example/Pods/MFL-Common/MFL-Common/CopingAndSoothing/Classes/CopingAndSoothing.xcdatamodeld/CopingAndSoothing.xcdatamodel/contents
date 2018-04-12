@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13241" systemVersion="16G29" minimumToolsVersion="Xcode 7.3" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Activity" representedClassName="MFL_Common.ManagedActivity" syncable="YES">
+        <attribute name="id_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isSelected_" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="text_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type_" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ActivityRefresh" representedClassName="MFL_Common.ManagedActivityRefresh" syncable="YES">
+        <attribute name="hasUserOpenedFeature_" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lastUpdatedDate_" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Activity" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="ActivityRefresh" positionX="-54" positionY="18" width="128" height="75"/>
+    </elements>
+</model>

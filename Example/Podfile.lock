@@ -1,12 +1,371 @@
 PODS:
-  - MFLToxicMessages (0.1.2)
+  - Alamofire (4.6.0)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - BABFrameObservingInputAccessoryView (0.2.4)
+  - DKImagePickerController (3.6.2):
+    - DKImagePickerController/Camera (= 3.6.2)
+    - DKImagePickerController/ImageManager (= 3.6.2)
+  - DKImagePickerController/Camera (3.6.2)
+  - DKImagePickerController/ImageManager (3.6.2)
+  - FW_JSQMessagesViewController (7.3.6)
+  - lottie-ios (2.5.0)
+  - MBProgressHUD (1.0.0)
+  - MFL-Common (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - MFL-Common/CBM (= 0.1.0)
+    - MFL-Common/CopingAndSoothing (= 0.1.0)
+    - MFL-Common/Forum (= 0.1.0)
+    - MFL-Common/GetMoreHelp (= 0.1.0)
+    - MFL-Common/Goals (= 0.1.0)
+    - MFL-Common/Grounding (= 0.1.0)
+    - MFL-Common/Mood (= 0.1.0)
+    - MFL-Common/Onboarding (= 0.1.0)
+    - MFL-Common/Passcode (= 0.1.0)
+    - MFL-Common/Payment (= 0.1.0)
+    - MFL-Common/Profile (= 0.1.0)
+    - MFL-Common/Questionnaire (= 0.1.0)
+    - MFL-Common/ReflectionSpace (= 0.1.0)
+    - MFL-Common/Stages (= 0.1.0)
+    - MFL-Common/ToxicMessages (= 0.1.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/CBM (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/CopingAndSoothing (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/Forum (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - MFL-Common/Payment
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/GetMoreHelp (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/Goals (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/Grounding (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/Mood (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/Onboarding (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/Passcode (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/Payment (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/Profile (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/Questionnaire (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/ReflectionSpace (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/Stages (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFL-Common/ToxicMessages (0.1.0):
+    - Alamofire (= 4.6)
+    - AlamofireImage
+    - BABFrameObservingInputAccessoryView
+    - DKImagePickerController (< 3.8.0)
+    - FW_JSQMessagesViewController
+    - lottie-ios
+    - MBProgressHUD (~> 1.0.0)
+    - PiwikTracker (= 4.3)
+    - PKHUD
+    - ReachabilitySwift (~> 3)
+    - Socket.IO-Client-Swift (~> 9.0.1)
+    - StatefulViewController
+    - Stripe
+    - SwiftKeychainWrapper
+    - SwiftyJSON (~> 4.X)
+    - TSMarkdownParser
+    - UnderKeyboard
+  - MFLToxicMessages (0.1.2):
+    - MFL-Common
+  - PiwikTracker (4.3.0):
+    - PiwikTracker/Core (= 4.3.0)
+  - PiwikTracker/Core (4.3.0)
+  - PKHUD (5.0.0)
+  - ReachabilitySwift (3)
+  - Socket.IO-Client-Swift (9.0.1)
+  - StatefulViewController (3.0)
+  - Stripe (12.1.2)
+  - SwiftKeychainWrapper (3.0.1)
+  - SwiftyJSON (4.0.0)
+  - TSMarkdownParser (2.1.5)
+  - UnderKeyboard (11.0.0)
 
 DEPENDENCIES:
-  - MFLToxicMessages
+  - MFL-Common (from `git@github.com:FutureWorkshops/MFL-Common-iOS.git`)
+  - MFLToxicMessages (from `../`)
+
+EXTERNAL SOURCES:
+  MFL-Common:
+    :git: git@github.com:FutureWorkshops/MFL-Common-iOS.git
+  MFLToxicMessages:
+    :path: ../
+
+CHECKOUT OPTIONS:
+  MFL-Common:
+    :commit: 42d718edba5a350ef7bd53efc9cf00aee28ea847
+    :git: git@github.com:FutureWorkshops/MFL-Common-iOS.git
 
 SPEC CHECKSUMS:
-  MFLToxicMessages: 22029dd62a702e9961a324b348d827a9c28c35fd
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  BABFrameObservingInputAccessoryView: 0f5fa4d3bcd5dd7110c5e2c182b8b678c847cae6
+  DKImagePickerController: f69b60912ae8f8a0f2288a5f57c1b50d18894c07
+  FW_JSQMessagesViewController: 0b0fe78b188033f6868e2bb158c54fabc210995a
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MFL-Common: 74cfc29c82e43bf9ff35f3df4ca88ad713053d46
+  MFLToxicMessages: 4e33100662ef66adb1737b938c07a779d7b4986e
+  PiwikTracker: a4427642ca4f7ecf155d6e12a001f95fa27939c2
+  PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Socket.IO-Client-Swift: 60b71a684692a312c4aba3ef52f186e0e254e868
+  StatefulViewController: 4803bf900d44de26074344998e10e041113b5931
+  Stripe: 3230cdf8a8b0c04902e45e86f222fb82a926239c
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  TSMarkdownParser: 3224ea196ecc7148fa7e03bc438f9390d4edfb6d
+  UnderKeyboard: 15e672054b36584c2110d14756729fc338a90ca5
 
-PODFILE CHECKSUM: 3042d49d0fa742327e17773832a6b8b9191fca40
+PODFILE CHECKSUM: c29c408b56d7ce55c7c31784d7cecc581edcde35
 
 COCOAPODS: 1.4.0

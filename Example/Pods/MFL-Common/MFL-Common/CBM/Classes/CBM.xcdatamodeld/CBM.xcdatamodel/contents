@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G1114" minimumToolsVersion="Xcode 7.3" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CBMSession" representedClassName="MFL_Common.ManagedCBMSession" syncable="YES">
+        <attribute name="done_" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isStarted_" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="kind_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order_" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userId_" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="trials_" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="CBMTrial" inverseName="session_" inverseEntity="CBMTrial" syncable="YES"/>
+    </entity>
+    <entity name="CBMTrial" representedClassName="MFL_Common.ManagedCBMTrial" syncable="YES">
+        <attribute name="hidePorbeTimestamp_" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageOneURLString_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageTwoURLString_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="probePosition_" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userFailedToSelect_" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userSelectedWrongProbe_" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userSelectTimestamp_" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="session_" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CBMSession" inverseName="trials_" inverseEntity="CBMSession" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CBMSession" positionX="-36" positionY="54" width="128" height="150"/>
+        <element name="CBMTrial" positionX="-54" positionY="18" width="128" height="180"/>
+    </elements>
+</model>

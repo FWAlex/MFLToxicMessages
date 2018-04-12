@@ -1,0 +1,316 @@
+{
+  "name": "MFL-Common",
+  "version": "0.1.0",
+  "summary": "MFL components used around the differents apps.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/FWMarc/MFL-Common",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "FWMarc": "marc@futureworkshops.com"
+  },
+  "source": {
+    "git": "https://github.com/FutureWorkshops/MFL-Common-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MFL-Common/Classes/**/*.swift",
+  "resource_bundles": {
+    "Common": [
+      "MFL-Common/Classes/**/*.storyboard",
+      "MFL-Common/Assets/*.xcassets",
+      "MFL-Common/Classes/*.xib"
+    ]
+  },
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "CoreData",
+      "AVFoundation",
+      "AudioToolbox",
+      "CoreFoundation",
+      "CoreGraphics",
+      "CoreMedia",
+      "CoreTelephony",
+      "CoreVideo",
+      "GLKit",
+      "OpenGLES",
+      "QuartzCore",
+      "SystemConfiguration",
+      "VideoToolbox"
+    ]
+  },
+  "dependencies": {
+    "Alamofire": [
+      "4.6"
+    ],
+    "AlamofireImage": [
+
+    ],
+    "SwiftyJSON": [
+      "~> 4.X"
+    ],
+    "SwiftKeychainWrapper": [
+
+    ],
+    "PKHUD": [
+
+    ],
+    "UnderKeyboard": [
+
+    ],
+    "Stripe": [
+
+    ],
+    "FW_JSQMessagesViewController": [
+
+    ],
+    "Socket.IO-Client-Swift": [
+      "~> 9.0.1"
+    ],
+    "StatefulViewController": [
+
+    ],
+    "PiwikTracker": [
+      "4.3"
+    ],
+    "TSMarkdownParser": [
+
+    ],
+    "BABFrameObservingInputAccessoryView": [
+
+    ],
+    "DKImagePickerController": [
+      "< 3.8.0"
+    ],
+    "MBProgressHUD": [
+      "~> 1.0.0"
+    ],
+    "lottie-ios": [
+
+    ],
+    "ReachabilitySwift": [
+      "~> 3"
+    ]
+  },
+  "libraries": "c++",
+  "preserve_paths": "MFL-Common/CBM/Classes/CBM.xcdatamodeld",
+  "frameworks": "CoreData",
+  "subspecs": [
+    {
+      "name": "Mood",
+      "source_files": "MFL-Common/Mood/Classes/*.swift",
+      "resource_bundles": {
+        "Mood": [
+          "MFL-Common/Mood/Classes/*.storyboard",
+          "MFL-Common/Mood/Assets/*.xcassets",
+          "MFL-Common/Mood/Classes/*.xib"
+        ]
+      }
+    },
+    {
+      "name": "Onboarding",
+      "source_files": "MFL-Common/Onboarding/Classes/*.swift"
+    },
+    {
+      "name": "Passcode",
+      "source_files": "MFL-Common/Passcode/Classes/*.swift",
+      "resource_bundles": {
+        "Passcode": [
+          "MFL-Common/Passcode/Classes/*.storyboard",
+          "MFL-Common/Passcode/Assets/*.xcassets",
+          "MFL-Common/Passcode/Classes/*.xib"
+        ]
+      }
+    },
+    {
+      "name": "Goals",
+      "source_files": "MFL-Common/Goals/Classes/*.swift",
+      "resource_bundles": {
+        "Goals": [
+          "MFL-Common/Goals/Classes/*.storyboard",
+          "MFL-Common/Goals/Assets/*.xcassets",
+          "MFL-Common/Goals/Classes/*.xib"
+        ]
+      }
+    },
+    {
+      "name": "Profile",
+      "source_files": "MFL-Common/Profile/Classes/*.swift",
+      "resource_bundles": {
+        "Profile": [
+          "MFL-Common/Profile/Classes/*.storyboard",
+          "MFL-Common/Profile/Assets/*.xcassets",
+          "MFL-Common/Profile/Classes/*.xib"
+        ]
+      }
+    },
+    {
+      "name": "Payment",
+      "source_files": "MFL-Common/Payment/Classes/*.swift",
+      "resource_bundles": {
+        "Payment": [
+          "MFL-Common/Payment/Classes/*.storyboard",
+          "MFL-Common/Payment/Assets/*.xcassets",
+          "MFL-Common/Payment/Classes/*.xib"
+        ]
+      }
+    },
+    {
+      "name": "Stages",
+      "source_files": "MFL-Common/Stages/Classes/*.swift",
+      "resource_bundles": {
+        "Stages": [
+          "MFL-Common/Stages/Classes/*.storyboard",
+          "MFL-Common/Stages/Assets/*"
+        ]
+      }
+    },
+    {
+      "name": "Grounding",
+      "source_files": "MFL-Common/Grounding/Classes/*.swift",
+      "resource_bundles": {
+        "Grounding": [
+          "MFL-Common/Grounding/Classes/*.storyboard",
+          "MFL-Common/Grounding/Assets/*.xcassets",
+          "MFL-Common/Grounding/Classes/*.xib"
+        ]
+      }
+    },
+    {
+      "name": "Questionnaire",
+      "source_files": [
+        "MFL-Common/Questionnaire/Classes/*.swift",
+        "MFL-Common/Questionnaire/Classes/Questionnaire.xcdatamodeld",
+        "MFL-Common/Questionnaire/Classes/Questionnaire.xcdatamodeld/*.xcdatamodel"
+      ],
+      "resources": [
+        "MFL-Common/Questionnaire/Classes/Questionnaire.xcdatamodeld",
+        "MFL-Common/Questionnaire/Classes/Questionnaire.xcdatamodeld/*.xcdatamodel"
+      ],
+      "resource_bundles": {
+        "Questionnaire": [
+          "MFL-Common/Questionnaire/Classes/*.storyboard",
+          "MFL-Common/Questionnaire/Assets/*.xcassets",
+          "MFL-Common/Questionnaire/Classes/*.xib",
+          "MFL-Common/Questionnaire/Classes/Questionnaire.xcdatamodeld"
+        ]
+      }
+    },
+    {
+      "name": "ReflectionSpace",
+      "source_files": [
+        "MFL-Common/ReflectionSpace/Classes/*.swift",
+        "MFL-Common/ReflectionSpace/Classes/ReflectionSpace.xcdatamodeld",
+        "MFL-Common/ReflectionSpace/Classes/ReflectionSpace.xcdatamodeld/*.xcdatamodeld"
+      ],
+      "resources": [
+        "MFL-Common/ReflectionSpace/Classes/ReflectionSpace.xcdatamodeld",
+        "MFL-Common/ReflectionSpace/Classes/ReflectionSpace.xcdatamodeld/*.xcdatamodeld"
+      ],
+      "resource_bundles": {
+        "ReflectionSpace": [
+          "MFL-Common/ReflectionSpace/Classes/*.storyboard",
+          "MFL-Common/ReflectionSpace/Assets/*.xcassets",
+          "MFL-Common/ReflectionSpace/Classes/*.xib",
+          "MFL-Common/ReflectionSpace/Classes/ReflectionSpace.xcdatamodeld"
+        ]
+      }
+    },
+    {
+      "name": "GetMoreHelp",
+      "source_files": [
+        "MFL-Common/GetMoreHelp/Classes/*.swift",
+        "MFL-Common/GetMoreHelp/Classes/GetMoreHelp.xcdatamodeld",
+        "MFL-Common/GetMoreHelp/Classes/GetMoreHelp.xcdatamodeld/*.xcdatamodeld"
+      ],
+      "resources": [
+        "MFL-Common/GetMoreHelp/Classes/GetMoreHelp.xcdatamodeld",
+        "MFL-Common/GetMoreHelp/Classes/GetMoreHelp.xcdatamodeld/*.xcdatamodeld"
+      ],
+      "resource_bundles": {
+        "GetMoreHelp": [
+          "MFL-Common/GetMoreHelp/Classes/*.storyboard",
+          "MFL-Common/GetMoreHelp/Assets/*.xcassets",
+          "MFL-Common/GetMoreHelp/Classes/*.xib",
+          "MFL-Common/GetMoreHelp/Classes/GetMoreHelp.xcdatamodeld"
+        ]
+      }
+    },
+    {
+      "name": "CopingAndSoothing",
+      "source_files": [
+        "MFL-Common/CopingAndSoothing/Classes/*.swift",
+        "MFL-Common/CopingAndSoothing/Classes/CopingAndSoothing.xcdatamodeld",
+        "MFL-Common/CopingAndSoothing/Classes/CopingAndSoothing.xcdatamodeld/*.xcdatamodeld"
+      ],
+      "resources": [
+        "MFL-Common/CopingAndSoothing/Classes/CopingAndSoothing.xcdatamodeld",
+        "MFL-Common/CopingAndSoothing/Classes/CopingAndSoothing.xcdatamodeld/*.xcdatamodeld"
+      ],
+      "resource_bundles": {
+        "CopingAndSoothing": [
+          "MFL-Common/CopingAndSoothing/Classes/*.storyboard",
+          "MFL-Common/CopingAndSoothing/Assets/*.xcassets",
+          "MFL-Common/CopingAndSoothing/Classes/*.xib",
+          "MFL-Common/CopingAndSoothing/Classes/CopingAndSoothing.xcdatamodeld"
+        ]
+      }
+    },
+    {
+      "name": "Forum",
+      "source_files": "MFL-Common/Forum/Classes/*.swift",
+      "resource_bundles": {
+        "Forum": [
+          "MFL-Common/Forum/Classes/*.storyboard",
+          "MFL-Common/Forum/Assets/*.xcassets",
+          "MFL-Common/Forum/Classes/*.xib"
+        ]
+      },
+      "dependencies": {
+        "MFL-Common/Payment": [
+
+        ]
+      }
+    },
+    {
+      "name": "ToxicMessages",
+      "source_files": "MFL-Common/ToxicMessages/Classes/*.swift",
+      "resources": [
+        "MFL-Common/ToxicMessages/Classes/ToxicMessages.xcdatamodeld",
+        "MFL-Common/ToxicMessages/Classes/ToxicMessages.xcdatamodeld/*.xcdatamodeld"
+      ],
+      "resource_bundles": {
+        "ToxicMessages": [
+          "MFL-Common/ToxicMessages/Classes/*.storyboard",
+          "MFL-Common/ToxicMessages/Assets/*.xcassets",
+          "MFL-Common/ToxicMessages/Assets/*.md",
+          "MFL-Common/ToxicMessages/Assets/*.plist",
+          "MFL-Common/ToxicMessages/Classes/*.xib",
+          "MFL-Common/ToxicMessages/Classes/ToxicMessages.xcdatamodeld"
+        ]
+      }
+    },
+    {
+      "name": "CBM",
+      "source_files": "MFL-Common/CBM/Classes/*.swift",
+      "resources": [
+        "MFL-Common/CBM/Classes/CBM.xcdatamodeld",
+        "MFL-Common/CBM/Classes/CBM.xcdatamodeld/*.xcdatamodeld"
+      ],
+      "resource_bundles": {
+        "CBM": [
+          "MFL-Common/CBM/Classes/*.storyboard",
+          "MFL-Common/CBM/Assets/*.xcassets",
+          "MFL-Common/CBM/Classes/*.xib",
+          "MFL-Common/CBM/Classes/CBM.xcdatamodeld",
+          "MFL-Common/CBM/Assets/*.json"
+        ]
+      }
+    }
+  ]
+}
