@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAD32BDA207E5CA70010A8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD32BD9207E5CA70010A8BE /* AppDelegate.swift */; };
-		FAD32BDC207E5CA70010A8BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD32BDB207E5CA70010A8BE /* ViewController.swift */; };
-		FAD32BDF207E5CA70010A8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD32BDD207E5CA70010A8BE /* Main.storyboard */; };
-		FAD32BE1207E5CA80010A8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD32BE0207E5CA80010A8BE /* Assets.xcassets */; };
-		FAD32BE4207E5CA80010A8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD32BE2207E5CA80010A8BE /* LaunchScreen.storyboard */; };
-		FAD32BEF207E5CA80010A8BE /* MFLToxicMessagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD32BEE207E5CA80010A8BE /* MFLToxicMessagesTests.swift */; };
+		FAD32C06207F5EC90010A8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD32C05207F5EC90010A8BE /* AppDelegate.swift */; };
+		FAD32C08207F5EC90010A8BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD32C07207F5EC90010A8BE /* ViewController.swift */; };
+		FAD32C0B207F5EC90010A8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD32C09207F5EC90010A8BE /* Main.storyboard */; };
+		FAD32C0D207F5EC90010A8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD32C0C207F5EC90010A8BE /* Assets.xcassets */; };
+		FAD32C10207F5EC90010A8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD32C0E207F5EC90010A8BE /* LaunchScreen.storyboard */; };
+		FAD32C1B207F5EC90010A8BE /* MFLToxicMessagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD32C1A207F5EC90010A8BE /* MFLToxicMessagesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FAD32BEB207E5CA80010A8BE /* PBXContainerItemProxy */ = {
+		FAD32C17207F5EC90010A8BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAD32BCE207E5CA70010A8BE /* Project object */;
+			containerPortal = FAD32BFA207F5EC90010A8BE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FAD32BD5207E5CA70010A8BE;
+			remoteGlobalIDString = FAD32C01207F5EC90010A8BE;
 			remoteInfo = MFLToxicMessages;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FAD32BD6207E5CA70010A8BE /* MFLToxicMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFLToxicMessages.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD32BD9207E5CA70010A8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAD32BDB207E5CA70010A8BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAD32BDE207E5CA70010A8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAD32BE0207E5CA80010A8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAD32BE3207E5CA80010A8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FAD32BE5207E5CA80010A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAD32BEA207E5CA80010A8BE /* MFLToxicMessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFLToxicMessagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD32BEE207E5CA80010A8BE /* MFLToxicMessagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFLToxicMessagesTests.swift; sourceTree = "<group>"; };
-		FAD32BF0207E5CA80010A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD32C02207F5EC90010A8BE /* MFLToxicMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFLToxicMessages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD32C05207F5EC90010A8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD32C07207F5EC90010A8BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD32C0A207F5EC90010A8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD32C0C207F5EC90010A8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD32C0F207F5EC90010A8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD32C11207F5EC90010A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD32C16207F5EC90010A8BE /* MFLToxicMessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFLToxicMessagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD32C1A207F5EC90010A8BE /* MFLToxicMessagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFLToxicMessagesTests.swift; sourceTree = "<group>"; };
+		FAD32C1C207F5EC90010A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FAD32BD3207E5CA70010A8BE /* Frameworks */ = {
+		FAD32BFF207F5EC90010A8BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAD32BE7207E5CA80010A8BE /* Frameworks */ = {
+		FAD32C13207F5EC90010A8BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,42 +56,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FAD32BCD207E5CA70010A8BE = {
+		FAD32BF9207F5EC90010A8BE = {
 			isa = PBXGroup;
 			children = (
-				FAD32BD8207E5CA70010A8BE /* MFLToxicMessages */,
-				FAD32BED207E5CA80010A8BE /* MFLToxicMessagesTests */,
-				FAD32BD7207E5CA70010A8BE /* Products */,
+				FAD32C04207F5EC90010A8BE /* MFLToxicMessages */,
+				FAD32C19207F5EC90010A8BE /* MFLToxicMessagesTests */,
+				FAD32C03207F5EC90010A8BE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FAD32BD7207E5CA70010A8BE /* Products */ = {
+		FAD32C03207F5EC90010A8BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAD32BD6207E5CA70010A8BE /* MFLToxicMessages.app */,
-				FAD32BEA207E5CA80010A8BE /* MFLToxicMessagesTests.xctest */,
+				FAD32C02207F5EC90010A8BE /* MFLToxicMessages.app */,
+				FAD32C16207F5EC90010A8BE /* MFLToxicMessagesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAD32BD8207E5CA70010A8BE /* MFLToxicMessages */ = {
+		FAD32C04207F5EC90010A8BE /* MFLToxicMessages */ = {
 			isa = PBXGroup;
 			children = (
-				FAD32BD9207E5CA70010A8BE /* AppDelegate.swift */,
-				FAD32BDB207E5CA70010A8BE /* ViewController.swift */,
-				FAD32BDD207E5CA70010A8BE /* Main.storyboard */,
-				FAD32BE0207E5CA80010A8BE /* Assets.xcassets */,
-				FAD32BE2207E5CA80010A8BE /* LaunchScreen.storyboard */,
-				FAD32BE5207E5CA80010A8BE /* Info.plist */,
+				FAD32C05207F5EC90010A8BE /* AppDelegate.swift */,
+				FAD32C07207F5EC90010A8BE /* ViewController.swift */,
+				FAD32C09207F5EC90010A8BE /* Main.storyboard */,
+				FAD32C0C207F5EC90010A8BE /* Assets.xcassets */,
+				FAD32C0E207F5EC90010A8BE /* LaunchScreen.storyboard */,
+				FAD32C11207F5EC90010A8BE /* Info.plist */,
 			);
 			path = MFLToxicMessages;
 			sourceTree = "<group>";
 		};
-		FAD32BED207E5CA80010A8BE /* MFLToxicMessagesTests */ = {
+		FAD32C19207F5EC90010A8BE /* MFLToxicMessagesTests */ = {
 			isa = PBXGroup;
 			children = (
-				FAD32BEE207E5CA80010A8BE /* MFLToxicMessagesTests.swift */,
-				FAD32BF0207E5CA80010A8BE /* Info.plist */,
+				FAD32C1A207F5EC90010A8BE /* MFLToxicMessagesTests.swift */,
+				FAD32C1C207F5EC90010A8BE /* Info.plist */,
 			);
 			path = MFLToxicMessagesTests;
 			sourceTree = "<group>";
@@ -99,13 +99,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAD32BD5207E5CA70010A8BE /* MFLToxicMessages */ = {
+		FAD32C01207F5EC90010A8BE /* MFLToxicMessages */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAD32BF3207E5CA80010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessages" */;
+			buildConfigurationList = FAD32C1F207F5EC90010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessages" */;
 			buildPhases = (
-				FAD32BD2207E5CA70010A8BE /* Sources */,
-				FAD32BD3207E5CA70010A8BE /* Frameworks */,
-				FAD32BD4207E5CA70010A8BE /* Resources */,
+				FAD32BFE207F5EC90010A8BE /* Sources */,
+				FAD32BFF207F5EC90010A8BE /* Frameworks */,
+				FAD32C00207F5EC90010A8BE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,49 +113,49 @@
 			);
 			name = MFLToxicMessages;
 			productName = MFLToxicMessages;
-			productReference = FAD32BD6207E5CA70010A8BE /* MFLToxicMessages.app */;
+			productReference = FAD32C02207F5EC90010A8BE /* MFLToxicMessages.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FAD32BE9207E5CA80010A8BE /* MFLToxicMessagesTests */ = {
+		FAD32C15207F5EC90010A8BE /* MFLToxicMessagesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAD32BF6207E5CA80010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessagesTests" */;
+			buildConfigurationList = FAD32C22207F5EC90010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessagesTests" */;
 			buildPhases = (
-				FAD32BE6207E5CA80010A8BE /* Sources */,
-				FAD32BE7207E5CA80010A8BE /* Frameworks */,
-				FAD32BE8207E5CA80010A8BE /* Resources */,
+				FAD32C12207F5EC90010A8BE /* Sources */,
+				FAD32C13207F5EC90010A8BE /* Frameworks */,
+				FAD32C14207F5EC90010A8BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FAD32BEC207E5CA80010A8BE /* PBXTargetDependency */,
+				FAD32C18207F5EC90010A8BE /* PBXTargetDependency */,
 			);
 			name = MFLToxicMessagesTests;
 			productName = MFLToxicMessagesTests;
-			productReference = FAD32BEA207E5CA80010A8BE /* MFLToxicMessagesTests.xctest */;
+			productReference = FAD32C16207F5EC90010A8BE /* MFLToxicMessagesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FAD32BCE207E5CA70010A8BE /* Project object */ = {
+		FAD32BFA207F5EC90010A8BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Minds For Life";
 				TargetAttributes = {
-					FAD32BD5207E5CA70010A8BE = {
+					FAD32C01207F5EC90010A8BE = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					FAD32BE9207E5CA80010A8BE = {
+					FAD32C15207F5EC90010A8BE = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = FAD32BD5207E5CA70010A8BE;
+						TestTargetID = FAD32C01207F5EC90010A8BE;
 					};
 				};
 			};
-			buildConfigurationList = FAD32BD1207E5CA70010A8BE /* Build configuration list for PBXProject "MFLToxicMessages" */;
+			buildConfigurationList = FAD32BFD207F5EC90010A8BE /* Build configuration list for PBXProject "MFLToxicMessages" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,29 +163,29 @@
 				en,
 				Base,
 			);
-			mainGroup = FAD32BCD207E5CA70010A8BE;
-			productRefGroup = FAD32BD7207E5CA70010A8BE /* Products */;
+			mainGroup = FAD32BF9207F5EC90010A8BE;
+			productRefGroup = FAD32C03207F5EC90010A8BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAD32BD5207E5CA70010A8BE /* MFLToxicMessages */,
-				FAD32BE9207E5CA80010A8BE /* MFLToxicMessagesTests */,
+				FAD32C01207F5EC90010A8BE /* MFLToxicMessages */,
+				FAD32C15207F5EC90010A8BE /* MFLToxicMessagesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FAD32BD4207E5CA70010A8BE /* Resources */ = {
+		FAD32C00207F5EC90010A8BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD32BE4207E5CA80010A8BE /* LaunchScreen.storyboard in Resources */,
-				FAD32BE1207E5CA80010A8BE /* Assets.xcassets in Resources */,
-				FAD32BDF207E5CA70010A8BE /* Main.storyboard in Resources */,
+				FAD32C10207F5EC90010A8BE /* LaunchScreen.storyboard in Resources */,
+				FAD32C0D207F5EC90010A8BE /* Assets.xcassets in Resources */,
+				FAD32C0B207F5EC90010A8BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAD32BE8207E5CA80010A8BE /* Resources */ = {
+		FAD32C14207F5EC90010A8BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,46 +195,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FAD32BD2207E5CA70010A8BE /* Sources */ = {
+		FAD32BFE207F5EC90010A8BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD32BDC207E5CA70010A8BE /* ViewController.swift in Sources */,
-				FAD32BDA207E5CA70010A8BE /* AppDelegate.swift in Sources */,
+				FAD32C08207F5EC90010A8BE /* ViewController.swift in Sources */,
+				FAD32C06207F5EC90010A8BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAD32BE6207E5CA80010A8BE /* Sources */ = {
+		FAD32C12207F5EC90010A8BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD32BEF207E5CA80010A8BE /* MFLToxicMessagesTests.swift in Sources */,
+				FAD32C1B207F5EC90010A8BE /* MFLToxicMessagesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FAD32BEC207E5CA80010A8BE /* PBXTargetDependency */ = {
+		FAD32C18207F5EC90010A8BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAD32BD5207E5CA70010A8BE /* MFLToxicMessages */;
-			targetProxy = FAD32BEB207E5CA80010A8BE /* PBXContainerItemProxy */;
+			target = FAD32C01207F5EC90010A8BE /* MFLToxicMessages */;
+			targetProxy = FAD32C17207F5EC90010A8BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAD32BDD207E5CA70010A8BE /* Main.storyboard */ = {
+		FAD32C09207F5EC90010A8BE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FAD32BDE207E5CA70010A8BE /* Base */,
+				FAD32C0A207F5EC90010A8BE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FAD32BE2207E5CA80010A8BE /* LaunchScreen.storyboard */ = {
+		FAD32C0E207F5EC90010A8BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FAD32BE3207E5CA80010A8BE /* Base */,
+				FAD32C0F207F5EC90010A8BE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -242,7 +242,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FAD32BF1207E5CA80010A8BE /* Debug */ = {
+		FAD32C1D207F5EC90010A8BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -299,7 +299,7 @@
 			};
 			name = Debug;
 		};
-		FAD32BF2207E5CA80010A8BE /* Release */ = {
+		FAD32C1E207F5EC90010A8BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,14 +349,13 @@
 			};
 			name = Release;
 		};
-		FAD32BF4207E5CA80010A8BE /* Debug */ = {
+		FAD32C20207F5EC90010A8BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QK79RG5BZ;
 				INFOPLIST_FILE = MFLToxicMessages/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindsforlife.MFLToxicMessages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,14 +364,13 @@
 			};
 			name = Debug;
 		};
-		FAD32BF5207E5CA80010A8BE /* Release */ = {
+		FAD32C21207F5EC90010A8BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QK79RG5BZ;
 				INFOPLIST_FILE = MFLToxicMessages/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindsforlife.MFLToxicMessages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,7 +379,7 @@
 			};
 			name = Release;
 		};
-		FAD32BF7207E5CA80010A8BE /* Debug */ = {
+		FAD32C23207F5EC90010A8BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -398,7 +396,7 @@
 			};
 			name = Debug;
 		};
-		FAD32BF8207E5CA80010A8BE /* Release */ = {
+		FAD32C24207F5EC90010A8BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -418,34 +416,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAD32BD1207E5CA70010A8BE /* Build configuration list for PBXProject "MFLToxicMessages" */ = {
+		FAD32BFD207F5EC90010A8BE /* Build configuration list for PBXProject "MFLToxicMessages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAD32BF1207E5CA80010A8BE /* Debug */,
-				FAD32BF2207E5CA80010A8BE /* Release */,
+				FAD32C1D207F5EC90010A8BE /* Debug */,
+				FAD32C1E207F5EC90010A8BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAD32BF3207E5CA80010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessages" */ = {
+		FAD32C1F207F5EC90010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAD32BF4207E5CA80010A8BE /* Debug */,
-				FAD32BF5207E5CA80010A8BE /* Release */,
+				FAD32C20207F5EC90010A8BE /* Debug */,
+				FAD32C21207F5EC90010A8BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAD32BF6207E5CA80010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessagesTests" */ = {
+		FAD32C22207F5EC90010A8BE /* Build configuration list for PBXNativeTarget "MFLToxicMessagesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAD32BF7207E5CA80010A8BE /* Debug */,
-				FAD32BF8207E5CA80010A8BE /* Release */,
+				FAD32C23207F5EC90010A8BE /* Debug */,
+				FAD32C24207F5EC90010A8BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FAD32BCE207E5CA70010A8BE /* Project object */;
+	rootObject = FAD32BFA207F5EC90010A8BE /* Project object */;
 }
