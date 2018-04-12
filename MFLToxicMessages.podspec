@@ -14,10 +14,10 @@ The Toxic Messages feature of the MFL Recovery Apps. This Allows the user to see
  
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MFLToxicMessages/Classes/**/*.swift'
+  # s.source_files = 'MFLToxicMessages/Classes/**/*.swift'
 
-  s.resource_bundles = {
-    'MFLToxicMessages' => ['MFLToxicMessages/Classes/**/*.storyboard', 'MFLToxicMessages/Assets/*.xcassets', 'MFLToxicMessages/Classes/*.xib']
-  }
+  # s.resource_bundles = {
+  #   'MFLToxicMessages' => ['MFLToxicMessages/Classes/**/*.storyboard', 'MFLToxicMessages/Assets/*.xcassets', 'MFLToxicMessages/Classes/*.xib']
+  # }
  
 end
